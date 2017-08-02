@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.tjeit.viewexample">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TextViewPracticeActivity" />
+        <activity android:name=".EditTextPracticeActivity" />
+        <activity android:name=".ButtonPracticeActivity" />
+        <activity android:name=".LoginTestActivity" />
+        <activity android:name=".ResearchFormActivity" />
+        <activity android:name=".SignupTestActivity" />
+        <activity android:name=".LinearLayoutActivity" />
+        <activity android:name=".ReviewActivity" />
+        <activity android:name=".RoomInfoActivity"></activity>
+        <activity android:name=".ListViewExampleActivity" />
+        <activity android:name=".ListViewTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RoomListPraticeActivity">
+        </activity>
+        <activity android:name=".SpinnerPraticeActivity">
+        </activity>
+
+    </application>
+
+</manifest>
